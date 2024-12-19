@@ -3,8 +3,10 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+	font-family: 'space grotesk';
 }
 
 .content {
@@ -12,17 +14,137 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	max-width: 1440px;
+	gap: 70px;
+	width: 1440px;
 	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 50px;
+	width: 100%;
+	height: 68px;
+	border: 1px solid #000;
+	box-shadow: 0 2px 5px #000;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.logo img {
+	margin-right: 8px;
+	width: 32px;
+	height: 32px;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	font-weight: 800;
+	color: #000;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 500px;
+	height: 100%;
+}
+
+.menu-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.menu-item a {
+	font-size: 20px;
+	color: #000;
+}
+
+.request-btn {
+	width: 231px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-radius: 14px;
+}
+
+.request-btn a {
+	font-size: 20px;
+	color: #000;
 }
 
 header {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 515px;
+	padding: 0 100px;
 }
 
-.main-menu ul {
+.text-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: start;
+	justify-content: flex-start;
+	gap: 35px;
+	width: 531px;
+	height: 100%;
+}
+
+.text-container h1 {
+	font-size: 48px;
+}
+
+.text-container p {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.consultation-btn {
+	padding: 20px 35px;
+	border-radius: 14px;
+	background-color: #000;
+}
+
+.consultation-btn a {
+	font-size: 20px;
+	color: #fff;
+}
+
+header img {
+	width: 600px;
+	height: 100%;
+}
+
+.brand-logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 100px;
+	width: 100%;
+	height: 48px;
+}
+
+.brand-logo img {
+	filter: grayscale(100%);
+}
+
+.brand-logo img:hover {
+	filter: grayscale(0%);
 }
