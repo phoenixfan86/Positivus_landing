@@ -14,7 +14,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-color: #f3f3f3;
+	border-color: #fff;
 	gap: 70px;
 	width: 1440px;
 	width: 100%;
@@ -192,3 +192,22 @@ header img {
 	border-radius: 45px;
 	padding: 50px;
 }
+
+.gray{
+    background-color: #f3f3f3;
+}
+
+.green{
+    background-color: #b9ff66;
+}
+
+.black{
+    background-color: #000;
+    color: #fff;
+}
+
+.white{
+    background-color: #fff;
+    color: #000;
+}
+
