@@ -14,6 +14,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	border-color: #f3f3f3;
 	gap: 70px;
 	width: 1440px;
 	width: 100%;
@@ -147,4 +148,47 @@ header img {
 
 .brand-logo img:hover {
 	filter: grayscale(0%);
+}
+
+.services-tab {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 40px;
+	width: 100%;
+	height: 51px;
+	padding: 100px;
+}
+
+.headlines {
+	padding: 0 7px;
+	background-color: #b9ff66;
+	border-radius: 7px;
+}
+
+.services-tab .content {
+	width: 580px;
+	height: 46px;
+	font-size: 18px;
+}
+
+.card-tab {
+	width: 100%;
+	height: 1010px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	grid-row: 40px;
+	padding: 0 100px;
+}
+
+.card-tab .card {
+	width: 490px;
+	height: 310px;
+	border: 1px solid #000;
+	border-radius: 45px;
+	padding: 50px;
 }
