@@ -187,7 +187,7 @@ header img {
 	padding: 0 100px;
 }
 
-.card-tab .card {
+.card {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -322,7 +322,24 @@ header img {
 .working-tab {
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 0 100px;
 	gap: 30px;
+}
+
+.working-tab .card {
+	width: 100%;
+	height: 280px;
+}
+
+.l-card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.l-card-header {
 }
