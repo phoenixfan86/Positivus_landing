@@ -331,15 +331,64 @@ header img {
 
 .working-tab .card {
 	width: 100%;
-	height: 280px;
+	height: 250px;
+	padding: 40px;
+}
+
+.working-tab .card:hover {
+	background-color: #b9ff66;
 }
 
 .l-card-content {
+	width: 100%;
+	height: 90%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.l-card-content p {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.l-card-header {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+}
+
+.l-card-header .card-title {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 
-.l-card-header {
+.l-card-header,
+.title {
+	font-size: 50px;
+	margin-right: 25px;
+}
+.l-card-header,
+.description {
+	font-size: 30px;
+}
+
+.more-btn {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 50%;
+	font-size: 50px;
+	font-weight: bold;
 }
