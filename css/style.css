@@ -612,3 +612,111 @@ header img {
 	box-shadow: 0 4px 6px #b9ff66;
 	transition: transform 0.3s ease;
 }
+
+footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 100px;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	border-radius: 45px 45px 0 0;
+	padding: 50px 60px;
+}
+
+.footer-header {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-header > .logo > a {
+	font-size: 22px;
+}
+
+.footer-menu .menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.footer-menu .menu > .menu-item > a {
+	font-size: 14px;
+}
+
+.footer-social {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footer-contact {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-content {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 20px;
+}
+
+.subscribe-block {
+	width: 600px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 15px;
+	background-color: #292a32;
+	border-radius: 14px;
+	padding: 20px;
+}
+
+.sub-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.subscribe-block input {
+	width: 250px;
+	height: 30px;
+	padding: 18px 30px;
+	border-radius: 8;
+}
+
+.subscribe {
+	text-align: center;
+	width: 180px;
+	height: 40px;
+	padding: 8px;
+	border-radius: 8px;
+	background-color: #b9ff66;
+}
+
+.subscribe:hover {
+	color: #005f6b;
+	transform: translate(2px, 2px);
+	box-shadow: 0 4px 3px #b9ff66;
+	transition: transform 0.3s ease;
+}
