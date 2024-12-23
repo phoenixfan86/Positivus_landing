@@ -13,13 +13,13 @@
 	font-family: 'space grotesk';
 }
 
-.content {
+.content-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	border-color: #fff;
-	gap: 70px;
+	gap: 50px;
 	width: 1440px;
 	width: 100%;
 	padding: 0 100px;
@@ -157,7 +157,6 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	width: 100%;
-	height: 515px;
 }
 
 .text-container {
@@ -166,7 +165,7 @@ header {
 	align-items: start;
 	justify-content: flex-start;
 	gap: 35px;
-	width: 531px;
+	width: 100%;
 	height: 100%;
 }
 
@@ -324,7 +323,7 @@ header img {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .proposal-content {
