@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Space+Grotesk:wght@300..700&display=swap');
 
+.open {
+	display: flex !important;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -75,6 +79,60 @@ nav {
 	font-size: 20px;
 	color: #000;
 }
+
+/* Burger menu */
+
+.burger-menu {
+	display: none;
+	position: relative;
+	width: 25px;
+	height: 18px;
+	margin-right: 10px;
+	z-index: 20;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.burger-menu span {
+	width: 80%;
+	height: 2px;
+	transform: scale(1);
+	background-color: #d1c7bd;
+}
+
+.burger-menu::before,
+.burger-menu::after {
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 2px;
+	background-color: #d1c7bd;
+	transition: all 0.3s ease 0s;
+}
+
+.burger-menu::before {
+	top: 0;
+}
+
+.burger-menu::after {
+	bottom: 0;
+}
+
+.burger-menu.active span {
+	transform: scale(0);
+}
+
+.burger-menu.active::before {
+	top: 50%;
+	transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger-menu.active::after {
+	top: 50%;
+	transform: rotate(45deg) translate(0, 50%);
+}
+
+/* End boorger menu */
 
 .request-btn {
 	width: 231px;
